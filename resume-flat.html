@@ -1,0 +1,804 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Santipab Tipparach</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Santipab Tipparach
+					</h1>
+					<h2>
+						Web Application and Games Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">santipab.stephane@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(218) 251-4795</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://archenemyinteractive.com">https://archenemyinteractive.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Hi, my name is Santipab, my friends call me Ruben. I grew up living in Thailand and the US, and my two greatest dreamns are of going to space and making video games. So that&#x27;s why I became a programmer. I found myself falling in love with all the useful things I could build in the software world, and found myself a full time hobby of developing fun, immersive virtual reality games where my team and I have won multiple awards. I also come from the world of web application development, where I have been deployed in various industries, such as Civil Engineering, Power Grid Transimission, and most recently the Manufacturing of Windows and Doors.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/rubentipparach">rubentipparach</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/santipab-tipparach-2bb6602a/">rubentipparach</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/rubentipparach">rubentipparach</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Archenemy Interactive</span>
+					<span class="date">
+						2016-05-01 — 2019-03-17
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://archenemyinteractive.com/">https://archenemyinteractive.com/</a>
+				</div>
+				<div class="position">
+					Co-Founder
+				</div>
+				<div class="summary">
+					<p>Founded group to develop VR content for local events. Worked as lead on the Fleet Hackers VR project, served as lead writer, programmer, and art design. Developed VR tools for motion capture, ragdoll systems, and robotic sensor controls. Prototyped many games including Ixion and Tower of the Sun for HTC Vive.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Won many local awards for outstanding innovation and creativity in the local Fargo/Moorhead Area</li>
+					<li class="bullet">Held the championship for Fargo Game Makers 2 Years in a row.</li>
+					<li class="bullet">Continue to spread VR education among Fargo youth, and advocate for VR development.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Integrity Windows</span>
+					<span class="date">
+						2018-03-26 — 2019-03-17
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.marvin.com/integrity">https://www.marvin.com/integrity</a>
+				</div>
+				<div class="position">
+					SCADA Developer
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Leaded the adoption of DevOps, Continuous Integration, Distributed Source Control, and created Development and Testing environments for SCADA Systems</li>
+					<li class="bullet">Designed and implemented data structures and interfaces for storing PLC/Machine data to take snapshots of configurations for different batches of parts.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>NDSU</span>
+					<span class="date">
+						2016-01-11 — 2018-05-23
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.ugpti.org/dotsc/about/">https://www.ugpti.org/dotsc/about/</a>
+				</div>
+				<div class="position">
+					Teaching and Research Assistanships
+				</div>
+				<div class="summary">
+					<p>Employed as a teaching assistant for the computer science department in CS 160. Then trasitioned into a Resarch assitant for the Upper Great Plains Transportation Institute. Maintained databases, legacy code, and successfully lead the development multiple new product releases for the DOT and UGPTI offices.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked on realtime data capture of roadway conditions using an Android device.</li>
+					<li class="bullet">Developed a new version of the Geographic Roadway Inventory Tool with ReactJS, Semantic UI, and Node JS.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>OATI</span>
+					<span class="date">
+						2013-06-01 — 2015-11-20
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.oati.com/">https://www.oati.com/</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>Employed as a professional developer creating software for the one of the country&#x27;s largest energy industry software company. Developed solutions to schedule transmissions of electrical energy between some of the biggest power companies in the US. I develop tools, algorithms, and software for transmission scheduling of electrical energy.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Lead developer of the Realtime Net-Scheduled Interchange application for monitoring real-time and near future transmissions across power grids.</li>
+					<li class="bullet">Lead development on integration of inter-company data transfer using SOAP XML via TSL.</li>
+					<li class="bullet">Improved testing infrastructure by creating Unit Tests in NUnit and training new QA teams for automation of Unit Tests.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Karvakko Engineering</span>
+					<span class="date">
+						2012-05-01 — 2013-03-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://archenemyinteractive.com/">https://archenemyinteractive.com/</a>
+				</div>
+				<div class="position">
+					Internship - Software Developer &amp; Technical Designer
+				</div>
+				<div class="summary">
+					<p>Worked as a software developer. Created a scheduling program, and a GIS application that interfaced with Google Earth. In addition, also designed 3D models for engineering projects, or future development plans. Used 3Ds Max and Gimp to develop a photo-realistic demonstration of the Bemidji Airport existing and development sites, along with a virtual tour of the Bemidji Airport for potential investors, landscape developers, and Civil Engineers.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>CHARISM STEM Program</span>
+					<span class="date">
+						2017-02-01 — 2018-05-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.charism.org/">https://www.charism.org/</a>
+				</div>
+				<div class="position">
+					Teacher
+				</div>
+				<div class="summary">
+					<p>Helped with Unity, VR, and Game Maker education program for middle school students grades 6-8. Taught kids to develop games using C# and Game Maker scripting.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>West Fargo Public Schools STEM Program</span>
+					<span class="date">
+						2018-12-22 — 2019-03-01
+					</span>
+				</h4>
+				<div class="position">
+					Teacher
+				</div>
+				<div class="summary">
+					<p>Helped bring game development education to a larger audience of students with 2D and VR video games in Unity.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>uCodeGirl</span>
+					<span class="date">
+						2018-06-18 — 2018-06-22
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.ucodegirl.org/">https://www.ucodegirl.org/</a>
+				</div>
+				<div class="position">
+					Teacher
+				</div>
+				<div class="summary">
+					<p>Ran a boot camp for VR devleopment for young adults. Used Coogle Cardboard and Android phones to create a VR balloon popping game.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>FIRST Robotics MidWest Regional Competition</span>
+					<span class="date">
+						2019-03-13 — 2019-03-16
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://info.firstinspires.org/destination-deep-space">https://info.firstinspires.org/destination-deep-space</a>
+				</div>
+				<div class="position">
+					Webcast Operator
+				</div>
+				<div class="summary">
+					<p>Ran the twitch stream for the FIRST robotics competition.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>North Dakota State University</span>
+					<span class="date">
+						2016-01-11 — 2019-08-30
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Masters
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Bemidji State University</span>
+					<span class="date">
+						2010-08-22 — 2013-05-10
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelors
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Nort Virginia Community College</span>
+					<span class="date">
+						2009-08-03 — 2010-05-10
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Associates
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>1st Prize at Fargo Game Jam 2018</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2018-11-04
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Fargo Game Makers</strong>
+				</div>
+				<div class="summary">
+					The development of Tower of the Sun, an interactive social simulation game about a society that solves its problems with sacrifices.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>1st Place at the Fargo Hackathon 2018</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2018-10-21
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Fargo Hackathon</strong>
+				</div>
+				<div class="summary">
+					For the development of Storm of Fire, and education simulation about fire safety.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>2nd Place at the Fargo Hackathon 2017</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-10-22
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Fargo Hackathon</strong>
+				</div>
+				<div class="summary">
+					For the driving and zombie-fighting simulation using the Wrld API and Fargo Fire Department data.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>1st Prize at Fargo Game Jam 2017</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-07-19
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Fargo Game Makers</strong>
+				</div>
+				<div class="summary">
+					Development of the prototype space horror survival game Ixion.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>3rd place at the Innovation Challenge NDSU 2017</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-04-20
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>NDSU Research Park</strong>
+				</div>
+				<div class="summary">
+					For the development of Fleet Hackers - and immersive VR space simulation.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BeachBot: Crowdsourcing Garbage Collection with Amphibious Robot Network</span>
+					<span class="date">
+						2018-03-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://dl.acm.org/citation.cfm?doid=3173386.3177832"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>ACM</strong>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>An interconnected network of UAS as a system-of-systems</span>
+					<span class="date">
+						2017-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://ieeexplore.ieee.org/document/8102148)"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>IEEE</strong>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>An internetworked self-driving car system-of-systems</span>
+					<span class="date">
+						2017-06-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://ieeexplore.ieee.org/document/7994957"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>IEEE</strong>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>JQuery/JSON</li>
+					<li>NodeJS</li>
+					<li>ReactJS</li>
+					<li>VueJS</li>
+					<li>PHP</li>
+					<li>SQL Server</li>
+					<li>MySQL</li>
+					<li>MongoDB</li>
+					<li>PostgreSQL</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Game Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Unity 3D</li>
+					<li>Space Simulation Physics Systems</li>
+					<li>Character Animation/Interaction Systems</li>
+					<li>Virtual Reality Locomotion Systems</li>
+					<li>Multiplayer and Cross Platform Games</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Graphics Programming</h4>
+				</div>
+				<ul class="keywords">
+					<li>OpenGL</li>
+					<li>DirectX</li>
+					<li>HSLS/GLSL</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>General Programming</h4>
+				</div>
+				<ul class="keywords">
+					<li>C#, WPF, .Net, WCF</li>
+					<li>Java, Android Development, Map Reduce with Hadoop</li>
+					<li>C/C++</li>
+					<li>Python</li>
+					<li>NUnit/JUnit Testing</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Thai</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Computer Graphics</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Game Development</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Creative Writing</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Concept Art/3D Modeling/Texturing/Animation</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Space Exploration</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Astronomy</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>

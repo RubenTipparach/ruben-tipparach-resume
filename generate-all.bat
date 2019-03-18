@@ -1,0 +1,13 @@
+call resume export resume-elegant.html --theme elegant
+call resume export resume-paper.html --theme paper
+call resume export resume-kendall.html --theme kendall
+call resume export resume-flat.html --theme flat
+call resume export resume-modern.html --theme modern
+call resume export resume-classy.html --theme classy
+call resume export resume-class.html --theme class
+call resume export resume-short.html --theme short
+call resume export resume-slick.html --theme slick
+call resume export resume-kwan.html --theme kwan
+call resume export resume-onepage.html --theme onepage
+call resume export resume-spartan.html --theme spartan
+call resume export resume-stackoverflow.html --theme stackoverflow

@@ -1,0 +1,280 @@
+{
+  "basics": {
+    "name": "Santipab Tipparach",
+    "label": "Web Application and Games Developer",
+    "picture": "id.jpg",
+    "email": "santipab.stephane@gmail.com",
+    "phone": "(218) 251-4795",
+    "website": "https://archenemyinteractive.com",
+    "summary": "Hi, my name is Santipab, my friends call me Ruben. I grew up living in Thailand and the US, and my two greatest dreamns are of going to space and making video games. So that's why I became a programmer. I found myself falling in love with all the useful things I could build in the software world, and found myself a full time hobby of developing fun, immersive virtual reality games where my team and I have won multiple awards. I also come from the world of web application development, where I have been deployed in various industries, such as Civil Engineering, Power Grid Transimission, and most recently the Manufacturing of Windows and Doors.",
+    "location": {
+      "address": "122 1/2 N Broadway Dr, Fargo, ND 58102",
+      "postalCode": "58102",
+      "city": "Fargo",
+      "countryCode": "US",
+      "region": "North Dakota"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "rubentipparach",
+        "url": "https://twitter.com/rubentipparach"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "rubentipparach",
+        "url": "https://www.linkedin.com/in/santipab-tipparach-2bb6602a/"
+      },
+      {
+        "network": "GitHub",
+        "username": "rubentipparach",
+        "url": "https://github.com/rubentipparach"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Archenemy Interactive",
+      "position": "Co-Founder",
+      "website": "https://archenemyinteractive.com/",
+      "startDate": "2016-05-01",
+      "endDate": "2019-03-17",
+      "summary": "Founded group to develop VR content for local events. Worked as lead on the Fleet Hackers VR project, served as lead writer, programmer, and art design. Developed VR tools for motion capture, ragdoll systems, and robotic sensor controls. Prototyped many games including Ixion and Tower of the Sun for HTC Vive.",
+      "highlights": [
+        "Won many local awards for outstanding innovation and creativity in the local Fargo/Moorhead Area",
+        "Held the championship for Fargo Game Makers 2 Years in a row.",
+        "Continue to spread VR education among Fargo youth, and advocate for VR development."
+      ]
+    },
+    {
+      "company": "Integrity Windows",
+      "position": "SCADA Developer",
+      "website": "https://www.marvin.com/integrity",
+      "startDate": "2018-03-26",
+      "endDate": "2019-03-17",
+      "summary": "",
+      "highlights": [
+        "Leaded the adoption of DevOps, Continuous Integration, Distributed Source Control, and created Development and Testing environments for SCADA Systems",
+        "Designed and implemented data structures and interfaces for storing PLC/Machine data to take snapshots of configurations for different batches of parts."
+      ]
+    },
+    {
+      "company": "NDSU",
+      "position": "Teaching and Research Assistanships",
+      "website": "https://www.ugpti.org/dotsc/about/",
+      "startDate": "2016-01-11",
+      "endDate": "2018-05-23",
+      "summary": "Employed as a teaching assistant for the computer science department in CS 160. Then trasitioned into a Resarch assitant for the Upper Great Plains Transportation Institute. Maintained databases, legacy code, and successfully lead the development multiple new product releases for the DOT and UGPTI offices.",
+      "highlights": [
+        "Worked on realtime data capture of roadway conditions using an Android device.",
+        "Developed a new version of the Geographic Roadway Inventory Tool with ReactJS, Semantic UI, and Node JS."
+      ]
+    },
+    {
+      "company": "OATI",
+      "position": "Software Developer",
+      "website": "https://www.oati.com/",
+      "startDate": "2013-06-01",
+      "endDate": "2015-11-20",
+      "summary": "Employed as a professional developer creating software for the one of the country's largest energy industry software company. Developed solutions to schedule transmissions of electrical energy between some of the biggest power companies in the US. I develop tools, algorithms, and software for transmission scheduling of electrical energy.",
+      "highlights": [
+        "Lead developer of the Realtime Net-Scheduled Interchange application for monitoring real-time and near future transmissions across power grids.",
+        "Lead development on integration of inter-company data transfer using SOAP XML via TSL.",
+        "Improved testing infrastructure by creating Unit Tests in NUnit and training new QA teams for automation of Unit Tests."
+      ]
+    },
+    {
+      "company": "Karvakko Engineering",
+      "position": "Internship - Software Developer & Technical Designer",
+      "website": "https://archenemyinteractive.com/",
+      "startDate": "2012-05-01",
+      "endDate": "2013-03-01",
+      "summary": "Worked as a software developer. Created a scheduling program, and a GIS application that interfaced with Google Earth. In addition, also designed 3D models for engineering projects, or future development plans. Used 3Ds Max and Gimp to develop a photo-realistic demonstration of the Bemidji Airport existing and development sites, along with a virtual tour of the Bemidji Airport for potential investors, landscape developers, and Civil Engineers."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CHARISM STEM Program",
+      "position": "Teacher",
+      "website": "https://www.charism.org/",
+      "startDate": "2017-02-01",
+      "endDate": "2018-05-01",
+      "summary": "Helped with Unity, VR, and Game Maker education program for middle school students grades 6-8. Taught kids to develop games using C# and Game Maker scripting."
+    },
+    {
+      "organization": "West Fargo Public Schools STEM Program",
+      "position": "Teacher",
+      "startDate": "2018-12-22",
+      "endDate": "2019-03-01",
+      "summary": "Helped bring game development education to a larger audience of students with 2D and VR video games in Unity."
+    },
+    {
+      "organization": "uCodeGirl",
+      "position": "Teacher",
+      "website": "https://www.ucodegirl.org/",
+      "startDate": "2018-06-18",
+      "endDate": "2018-06-22",
+      "summary": "Ran a boot camp for VR devleopment for young adults. Used Coogle Cardboard and Android phones to create a VR balloon popping game."
+    },
+    {
+      "organization": "FIRST Robotics MidWest Regional Competition",
+      "position": "Webcast Operator",
+      "website": "https://info.firstinspires.org/destination-deep-space",
+      "startDate": "2019-03-13",
+      "endDate": "2019-03-16",
+      "summary": "Ran the twitch stream for the FIRST robotics competition."
+    }
+  ],
+  "education": [
+    {
+      "institution": "North Dakota State University",
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2016-01-11",
+      "endDate": "2019-08-30"
+    },
+    {
+      "institution": "Bemidji State University",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2010-08-22",
+      "endDate": "2013-05-10"
+    },
+    {
+      "institution": "Nort Virginia Community College",
+      "area": "Computer Science",
+      "studyType": "Associates",
+      "startDate": "2009-08-03",
+      "endDate": "2010-05-10"
+    }
+  ],
+  "awards": [
+    {
+      "title": "1st Prize at Fargo Game Jam 2018",
+      "date": "2018-11-04",
+      "awarder": "Fargo Game Makers",
+      "summary": "The development of Tower of the Sun, an interactive social simulation game about a society that solves its problems with sacrifices."
+    },
+    {
+      "title": "1st Place at the Fargo Hackathon 2018",
+      "date": "2018-10-21",
+      "awarder": "Fargo Hackathon",
+      "summary": "For the development of Storm of Fire, and education simulation about fire safety."
+    },
+    {
+      "title": "2nd Place at the Fargo Hackathon 2017",
+      "date": "2017-10-22",
+      "awarder": "Fargo Hackathon",
+      "summary": "For the driving and zombie-fighting simulation using the Wrld API and Fargo Fire Department data."
+    },
+    {
+      "title": "1st Prize at Fargo Game Jam 2017",
+      "date": "2017-07-19",
+      "awarder": "Fargo Game Makers",
+      "summary": "Development of the prototype space horror survival game Ixion."
+    },
+    {
+      "title": "3rd place at the Innovation Challenge NDSU 2017",
+      "date": "2017-04-20",
+      "awarder": "NDSU Research Park",
+      "summary": "For the development of Fleet Hackers - and immersive VR space simulation."
+    }
+  ],
+  "publications": [
+    {
+      "name": "BeachBot: Crowdsourcing Garbage Collection with Amphibious Robot Network",
+      "publisher": "ACM",
+      "releaseDate": "2018-03-01",
+      "website": "https://dl.acm.org/citation.cfm?doid=3173386.3177832"
+    },
+    {
+      "name": "An interconnected network of UAS as a system-of-systems",
+      "publisher": "IEEE",
+      "releaseDate": "2017-09-01",
+      "website": "https://ieeexplore.ieee.org/document/8102148)"
+    },
+    {
+      "name": "An internetworked self-driving car system-of-systems",
+      "publisher": "IEEE",
+      "releaseDate": "2017-06-01",
+      "website": "https://ieeexplore.ieee.org/document/7994957"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "JQuery/JSON",
+        "NodeJS",
+        "ReactJS",
+        "VueJS",
+        "PHP",
+        "SQL Server",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Game Development",      
+      "keywords": [
+        "Unity 3D",
+        "Space Simulation Physics Systems",
+        "Character Animation/Interaction Systems",
+        "Virtual Reality Locomotion Systems",
+        "Multiplayer and Cross Platform Games"
+      ]
+    },
+    {
+      "name": "Graphics Programming",      
+      "keywords": [
+        "OpenGL",
+        "DirectX",
+        "HSLS/GLSL"
+      ]
+    },
+    {
+      "name": "General Programming",      
+      "keywords": [
+        "C#, WPF, .Net, WCF",
+        "Java, Android Development, Map Reduce with Hadoop",
+        "C/C++",
+        "Python",
+        "NUnit/JUnit Testing"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Thai",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computer Graphics"
+    },
+    {
+      "name": "Game Development"
+    },
+    {
+      "name": "Creative Writing"
+    },
+    {
+      "name": "Concept Art/3D Modeling/Texturing/Animation"
+    },
+    {
+      "name": "Space Exploration"
+    },
+    {
+      "name": "Astronomy"
+    }
+  ]
+}
