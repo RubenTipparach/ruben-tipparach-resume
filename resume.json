@@ -52,7 +52,7 @@
       "website": "https://www.marvin.com/integrity",
       "startDate": "2018-03-26",
       "endDate": "2019-03-17",
-      "summary": "",
+      "summary": "Design, implement solutions, and maintain the main SCADA database as well as writing custom scripts and functionality for Ignition system. Provide support for 4 manufacturing facilities for the Integrity and Infinity line of Windows and Doors productions.",
       "highlights": [
         "Leaded the adoption of DevOps, Continuous Integration, Distributed Version Control Systems, and created Development and Testing environments for SCADA Systems",
         "Designed and implemented data structures and interfaces for storing PLC/Machine data to take snapshots of configurations for multiple batches of parts."
