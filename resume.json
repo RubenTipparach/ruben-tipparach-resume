@@ -6,7 +6,7 @@
     "email": "santipab.stephane@gmail.com",
     "phone": "(218) 251-4795",
     "website": "https://archenemyinteractive.com",
-    "summary": "Ruben (Santipab) grew up living in Thailand and the US, his two greatest dreamns are of going to space and making video games. He has a full time hobby of developing fun, immersive virtual reality games where him and his team have won multiple awards. He also comes from the world of web application development, where he has been employed in various industries, such as Civil Engineering, Power Grid Transimission, and most recently the Manufacturing of Windows and Doors.",
+    "summary": "Full stack software developer in React, Node JS, and ASP .Net. Experience with implementation of complex client side web applications using modern Javascript technologies and previous experience working on scalable high-performance back end server infrastructure. My favorite hobby is designing and implementing video games with Unity game engine.",
     "location": {
       "address": "122 1/2 N Broadway Dr",
       "postalCode": "58102",
@@ -47,15 +47,17 @@
       ]
     },
     {
-      "company": "Integrity Windows",
-      "position": "SCADA Developer",
+      "company": "Marvin Windows",
+      "position": "SQL Developer",
       "website": "https://www.marvin.com/integrity",
       "startDate": "2018-03-26",
-      "endDate": "2019-03-17",
-      "summary": "Design, implement solutions, and maintain the main SCADA database as well as writing custom scripts and functionality for Ignition system. Provide support for 4 manufacturing facilities for the Integrity and Infinity line of Windows and Doors productions.",
+      "endDate": "2020-02-28",
+      "summary": "Database administration, full stack web-development, and HMI(human-machine interaction) application development. Works on web applications that run on React, Node JS ASP.Net and Ignition to create solutions automation and manufacturing processes.",
       "highlights": [
-        "Leaded the adoption of DevOps, Continuous Integration, Distributed Version Control Systems, and created Development and Testing environments for SCADA Systems",
-        "Designed and implemented data structures and interfaces for storing PLC/Machine data to take snapshots of configurations for multiple batches of parts."
+        "Leaded the adoption of DevOps, Continuous Integration, Distributed Version Control Systems, and created Development and Testing environments for SCADA Systems.",
+	"Created web based infrastructure for remote client management across 4 Marvin Plants.",
+	"Developed web applications for managing machine settings for various parts configurations.",
+	"Database schema design and overhaul of many major backend systems."
       ]
     },
     {
@@ -240,7 +242,7 @@
       "name": "General Programming",      
       "keywords": [
         "C#, WPF, .Net, WCF",
-        "Java, Android Development, Map Reduce with Hadoop",
+        "Java, Android Development",
         "C/C++",
         "Python",
         "NUnit/JUnit Testing"
