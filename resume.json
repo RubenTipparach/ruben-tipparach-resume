@@ -16,6 +16,11 @@
     },
     "profiles": [
       {
+        "network": "Itch.io",
+        "username": "rubentipparach",
+        "url": "https://ruben-tipparach.itch.io/"
+      },
+      {
         "network": "Twitter",
         "username": "rubentipparach",
         "url": "https://twitter.com/rubentipparach"
@@ -47,11 +52,19 @@
       ]
     },
     {
+      "company": "Bushel Inc.",
+      "position": "Senior Software Engineer",
+      "website": "https://bushelpowered.com/",
+      "startDate": "2020-04-24",
+      "endDate": "2021-01-29",
+      "summary": "Works on Bushel's cloud payments solution, back end API developer. Helped with dev ops tasks such as setting up Docker containers and Azure Dev Ops pipelines. Worked with event messaging in Pulsar and contributed to architectural design decisions involving microservices. Utilized Java Spring Boot and Cockroach DB."      
+    },
+    {
       "company": "Marvin Windows",
       "position": "SQL Developer",
       "website": "https://www.marvin.com/integrity",
       "startDate": "2018-03-26",
-      "endDate": "2020-02-28",
+      "endDate": "2020-04-24",
       "summary": "Database administration, full stack web-development, and HMI(human-machine interaction) application development. Works on web applications that run on React, Node JS ASP.Net and Ignition to create solutions automation and manufacturing processes.",
       "highlights": [
         "Leaded the adoption of DevOps, Continuous Integration, Distributed Version Control Systems, and created Development and Testing environments for SCADA Systems.",

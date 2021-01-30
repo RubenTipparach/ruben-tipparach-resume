@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Santipab Tipparach</title>
+    <meta name="description" content="Full stack software developer in React, Node JS, and ASP .Net. Experience with implementation of complex client side web applications using modern Javascript technologies and previous experience working on scalable high-performance back end server infrastructure. My favorite hobby is designing and implementing video games with Unity game engine." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>Santipab Tipparach</h1>
+          <h2>Web Application and Games Developer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:santipab.stephane@gmail.com">santipab.stephane@gmail.com</a>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              (218) 251-4795
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>Full stack software developer in React, Node JS, and ASP .Net. Experience with implementation of complex client side web applications using modern Javascript technologies and previous experience working on scalable high-performance back end server infrastructure. My favorite hobby is designing and implementing video games with Unity game engine.</p>
+          </article>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h4>Itch.io</h4>
+                    <a href="https://ruben-tipparach.itch.io/">rubentipparach</a>
+              </div>
+              <div>
+                  <h4>Twitter</h4>
+                    <a href="https://twitter.com/rubentipparach">rubentipparach</a>
+              </div>
+              <div>
+                  <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/santipab-tipparach-2bb6602a/">rubentipparach</a>
+              </div>
+              <div>
+                  <h4>GitHub</h4>
+                    <a href="https://github.com/rubentipparach">rubentipparach</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2016-05-01">May 2016</time> –
+                    <time datetime="2019-03-17">Mar 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Co-Founder</strong>
+                </div>
+              </header>
+                <p>Founded group to develop VR content for commercial games and for local organizations and busnisses. Worked as lead on the Fleet Hackers VR project, served as lead writer, programmer, and art design. Developed VR tools for motion capture, ragdoll systems, and robotic sensor controls. Prototyped many games including Ixion and Tower of the Sun for HTC Vive.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Won many local awards for outstanding innovation and creativity in the local Fargo/Moorhead Area</li>
+                    <li>Held the championship for Fargo Game Makers 2 Years in a row.</li>
+                    <li>Continue to spread VR education among Fargo youth, and advocate for VR development.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2020-04-24">Apr 2020</time> –
+                    <time datetime="2021-01-29">Jan 2021</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior Software Engineer</strong>
+                </div>
+              </header>
+                <p>Works on Bushel's cloud payments solution, back end API developer. Helped with dev ops tasks such as setting up Docker containers and Azure Dev Ops pipelines. Worked with event messaging in Pulsar and contributed to architectural design decisions involving microservices. Utilized Java Spring Boot and Cockroach DB.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2018-03-26">Mar 2018</time> –
+                    <time datetime="2020-04-24">Apr 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>SQL Developer</strong>
+                </div>
+              </header>
+                <p>Database administration, full stack web-development, and HMI(human-machine interaction) application development. Works on web applications that run on React, Node JS ASP.Net and Ignition to create solutions automation and manufacturing processes.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Leaded the adoption of DevOps, Continuous Integration, Distributed Version Control Systems, and created Development and Testing environments for SCADA Systems.</li>
+                    <li>Created web based infrastructure for remote client management across 4 Marvin Plants.</li>
+                    <li>Developed web applications for managing machine settings for various parts configurations.</li>
+                    <li>Database schema design and overhaul of many major backend systems.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2016-01-11">Jan 2016</time> –
+                    <time datetime="2018-05-23">May 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Teaching and Research Assistanships</strong>
+                </div>
+              </header>
+                <p>Employed as a teaching assistant for the computer science department in CS 160. Then trasitioned into a Resarch assistant for the Upper Great Plains Transportation Institute(UGPTI). Maintained databases, legacy code, and successfully lead the development multiple new product releases for the DOT(Department of Transprotation) and UGPTI offices.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Worked on realtime data capture of roadway conditions using an Android device.</li>
+                    <li>Developed a new version of the Geographic Roadway Inventory Tool with ReactJS, Semantic UI, and Node JS.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2013-06-01">Jun 2013</time> –
+                    <time datetime="2015-11-20">Nov 2015</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Software Developer</strong>
+                </div>
+              </header>
+                <p>Employed as a professional developer creating software for the one of the country's largest energy industry software company. Developed solutions to schedule transmissions of electrical energy and made strides in advancing the company in automated testing, and application-to-application communication infratructures.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Lead developer of the Realtime Net-Scheduled Interchange application for monitoring real-time and near future transmissions across power grids.</li>
+                    <li>Lead development on integration of inter-company data transfer using SOAP XML via TSL.</li>
+                    <li>Improved testing infrastructure by creating Unit Tests in NUnit and training new QA teams for automation of Unit Tests.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2012-05-01">May 2012</time> –
+                    <time datetime="2013-03-01">Mar 2013</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Internship - Software Developer &amp; Technical Designer</strong>
+                </div>
+              </header>
+                <p>Worked as a software developer. Created a scheduling program, and a GIS application that interfaced with Google Earth. In addition, also designed 3D models for engineering projects, or future development plans. Used 3Ds Max and Gimp to develop a photo-realistic demonstration of the Bemidji Airport existing and development sites, along with a virtual tour of the Bemidji Airport for potential investors, landscape developers, and Civil Engineers.</p>
+            </article>
+        </div>
+      </section>
+      <section id="volunteer">
+        <h3>Volunteer</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>CHARISM STEM Program</h4>
+                  <span>
+                    <time datetime="2017-02-01">Feb 2017</time> –
+                    <time datetime="2018-05-01">May 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Teacher</strong>
+                </div>
+              </header>
+                <p>Helped with Unity, VR, and Game Maker education program for middle school students grades 6-8. Taught kids to develop games using C# and Game Maker scripting.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>West Fargo Public Schools STEM Program</h4>
+                  <span>
+                    <time datetime="2018-12-22">Dec 2018</time> –
+                    <time datetime="2019-03-01">Mar 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Teacher</strong>
+                </div>
+              </header>
+                <p>Helped bring game development education to a larger audience of students with 2D and VR video games in Unity.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>uCodeGirl</h4>
+                  <span>
+                    <time datetime="2018-06-18">Jun 2018</time> –
+                    <time datetime="2018-06-22">Jun 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Teacher</strong>
+                </div>
+              </header>
+                <p>Ran a boot camp for VR devleopment for young adults. Used Coogle Cardboard and Android phones to create a VR balloon popping game.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>FIRST Robotics MidWest Regional Competition</h4>
+                  <span>
+                    <time datetime="2019-03-13">Mar 2019</time> –
+                    <time datetime="2019-03-16">Mar 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Webcast Operator</strong>
+                </div>
+              </header>
+                <p>Ran the Twitch stream for the FIRST robotics competition.</p>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>North Dakota State University</h4>
+                  <span>
+                    <time datetime="2016-01-11">Jan 2016</time> –
+                    <time datetime="2019-08-30">Aug 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Computer Science</strong>
+                </div>
+              </header>
+                <p>Masters</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Bemidji State University</h4>
+                  <span>
+                    <time datetime="2010-08-22">Aug 2010</time> –
+                    <time datetime="2013-05-10">May 2013</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Computer Science</strong>
+                </div>
+              </header>
+                <p>Bachelors</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Nort Virginia Community College</h4>
+                  <span>
+                    <time datetime="2009-08-03">Aug 2009</time> –
+                    <time datetime="2010-05-10">May 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Computer Science</strong>
+                </div>
+              </header>
+                <p>Associates</p>
+            </article>
+        </div>
+      </section>
+      <section id="awards">
+        <h3>Awards</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>1st Prize at Fargo Game Jam 2018</h4>
+                    <time datetime="2018-11-04">Nov 2018</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>Fargo Game Makers</strong>
+                    </div>
+                </div>
+              </header>
+                <p>The development of Tower of the Sun, an interactive social simulation game about a society that solves its problems with sacrifices.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>1st Place at the Fargo Hackathon 2018</h4>
+                    <time datetime="2018-10-21">Oct 2018</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>Fargo Hackathon</strong>
+                    </div>
+                </div>
+              </header>
+                <p>For the development of Storm of Fire, and education simulation about fire safety.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>2nd Place at the Fargo Hackathon 2017</h4>
+                    <time datetime="2017-10-22">Oct 2017</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>Fargo Hackathon</strong>
+                    </div>
+                </div>
+              </header>
+                <p>For the driving and zombie-fighting simulation using the Wrld API and Fargo Fire Department data.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>1st Prize at Fargo Game Jam 2017</h4>
+                    <time datetime="2017-07-19">Jul 2017</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>Fargo Game Makers</strong>
+                    </div>
+                </div>
+              </header>
+                <p>Development of the prototype space horror survival game Ixion.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>3rd place at the Innovation Challenge NDSU 2017</h4>
+                    <time datetime="2017-04-20">Apr 2017</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>NDSU Research Park</strong>
+                    </div>
+                </div>
+              </header>
+                <p>For the development of Fleet Hackers - and immersive VR space simulation.</p>
+            </article>
+        </div>
+      </section>
+      <section id="publications">
+        <h3>Publications</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>BeachBot: Crowdsourcing Garbage Collection with Amphibious Robot Network</h4>
+                    <time datetime="2018-03-01">Mar 2018</time>
+                </div>
+                <div class="spaced-list">
+                    <span>
+                      Published by <strong>ACM</strong>
+                    </span>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>An interconnected network of UAS as a system-of-systems</h4>
+                    <time datetime="2017-09-01">Sep 2017</time>
+                </div>
+                <div class="spaced-list">
+                    <span>
+                      Published by <strong>IEEE</strong>
+                    </span>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>An internetworked self-driving car system-of-systems</h4>
+                    <time datetime="2017-06-01">Jun 2017</time>
+                </div>
+                <div class="spaced-list">
+                    <span>
+                      Published by <strong>IEEE</strong>
+                    </span>
+                </div>
+              </header>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Web Development</h4>
+                <ul class="tag-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>JQuery/JSON</li>
+                    <li>NodeJS</li>
+                    <li>ReactJS</li>
+                    <li>VueJS</li>
+                    <li>PHP</li>
+                    <li>SQL Server</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Game Development</h4>
+                <ul class="tag-list">
+                    <li>Unity 3D</li>
+                    <li>Space Simulation Physics Systems</li>
+                    <li>Character Animation/Interaction Systems</li>
+                    <li>Virtual Reality Locomotion Systems</li>
+                    <li>Multiplayer and Cross Platform Games</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Graphics Programming</h4>
+                <ul class="tag-list">
+                    <li>OpenGL</li>
+                    <li>DirectX</li>
+                    <li>HSLS/GLSL</li>
+                </ul>
+            </div>
+            <div>
+                <h4>General Programming</h4>
+                <ul class="tag-list">
+                    <li>C#, WPF, .Net, WCF</li>
+                    <li>Java, Android Development</li>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>NUnit/JUnit Testing</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>English</h4>
+              Native speaker
+            </div>
+            <div>
+                <h4>Thai</h4>
+              Native speaker
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Computer Graphics</h4>
+            </div>
+            <div>
+                <h4>Game Development</h4>
+            </div>
+            <div>
+                <h4>Creative Writing</h4>
+            </div>
+            <div>
+                <h4>Concept Art/3D Modeling/Texturing/Animation</h4>
+            </div>
+            <div>
+                <h4>Space Exploration</h4>
+            </div>
+            <div>
+                <h4>Astronomy</h4>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>

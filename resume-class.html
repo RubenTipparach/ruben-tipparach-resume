@@ -1,0 +1,729 @@
+<!doctype html>
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Santipab Tipparach - CV</title>
+
+	<style>
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
+body {
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
+}
+
+em {
+	color: #999;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
+}
+
+.contact h3 {
+	padding-bottom: 10px;
+}
+
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+.summary {
+	padding-top: 5px;
+	clear: both;
+}
+
+#profiles {
+	overflow: hidden;
+}
+
+#profiles .item {
+	float: left;
+	width: 50%;
+}
+
+.username{
+	margin-top: 10px;
+}
+
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 30%;
+}
+
+.courses {
+	clear: both;
+}
+
+.dissertation {
+	margin-top: 10px;
+}
+
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+/* End styling */
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header>
+	<h1>Santipab Tipparach</h1>
+	<h2>Web Application and Games Developer</h2>
+	</header>
+
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="website">
+			<strong>Website</strong>
+			https://archenemyinteractive.com
+		</div>
+		<div class="email">
+			<strong>Email</strong>
+			santipab.stephane@gmail.com
+		</div>
+		<div class="phone">
+			<strong>Phone</strong>
+			(218) 251-4795
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>Full stack software developer in React, Node JS, and ASP .Net. Experience with implementation of complex client side web applications using modern Javascript technologies and previous experience working on scalable high-performance back end server infrastructure. My favorite hobby is designing and implementing video games with Unity game engine.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					Itch.io
+				</strong>
+				<div class="url">
+					<a href="https://ruben-tipparach.itch.io/">
+						rubentipparach
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Twitter
+				</strong>
+				<div class="url">
+					<a href="https://twitter.com/rubentipparach">
+						rubentipparach
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					LinkedIn
+				</strong>
+				<div class="url">
+					<a href="https://www.linkedin.com/in/santipab-tipparach-2bb6602a/">
+						rubentipparach
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					GitHub
+				</strong>
+				<div class="url">
+					<a href="https://github.com/rubentipparach">
+						rubentipparach
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			<h3 class="work_name">
+				Archenemy Interactive
+			</h3>
+			
+			<div class="work_position">
+				Co-Founder
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2016-05-01
+				</span>
+				<span class="endDate">
+					- 2019-03-17
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://archenemyinteractive.com/">https://archenemyinteractive.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Founded group to develop VR content for commercial games and for local organizations and busnisses. Worked as lead on the Fleet Hackers VR project, served as lead writer, programmer, and art design. Developed VR tools for motion capture, ragdoll systems, and robotic sensor controls. Prototyped many games including Ixion and Tower of the Sun for HTC Vive.</p>
+			</div>
+			<ul class="highlights">
+				<li>Won many local awards for outstanding innovation and creativity in the local Fargo/Moorhead Area</li>
+				<li>Held the championship for Fargo Game Makers 2 Years in a row.</li>
+				<li>Continue to spread VR education among Fargo youth, and advocate for VR development.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Bushel Inc.
+			</h3>
+			
+			<div class="work_position">
+				Senior Software Engineer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2020-04-24
+				</span>
+				<span class="endDate">
+					- 2021-01-29
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://bushelpowered.com/">https://bushelpowered.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Works on Bushel&#x27;s cloud payments solution, back end API developer. Helped with dev ops tasks such as setting up Docker containers and Azure Dev Ops pipelines. Worked with event messaging in Pulsar and contributed to architectural design decisions involving microservices. Utilized Java Spring Boot and Cockroach DB.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Marvin Windows
+			</h3>
+			
+			<div class="work_position">
+				SQL Developer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2018-03-26
+				</span>
+				<span class="endDate">
+					- 2020-04-24
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.marvin.com/integrity">https://www.marvin.com/integrity</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Database administration, full stack web-development, and HMI(human-machine interaction) application development. Works on web applications that run on React, Node JS ASP.Net and Ignition to create solutions automation and manufacturing processes.</p>
+			</div>
+			<ul class="highlights">
+				<li>Leaded the adoption of DevOps, Continuous Integration, Distributed Version Control Systems, and created Development and Testing environments for SCADA Systems.</li>
+				<li>Created web based infrastructure for remote client management across 4 Marvin Plants.</li>
+				<li>Developed web applications for managing machine settings for various parts configurations.</li>
+				<li>Database schema design and overhaul of many major backend systems.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				NDSU
+			</h3>
+			
+			<div class="work_position">
+				Teaching and Research Assistanships
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2016-01-11
+				</span>
+				<span class="endDate">
+					- 2018-05-23
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.ugpti.org/dotsc/about/">https://www.ugpti.org/dotsc/about/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Employed as a teaching assistant for the computer science department in CS 160. Then trasitioned into a Resarch assistant for the Upper Great Plains Transportation Institute(UGPTI). Maintained databases, legacy code, and successfully lead the development multiple new product releases for the DOT(Department of Transprotation) and UGPTI offices.</p>
+			</div>
+			<ul class="highlights">
+				<li>Worked on realtime data capture of roadway conditions using an Android device.</li>
+				<li>Developed a new version of the Geographic Roadway Inventory Tool with ReactJS, Semantic UI, and Node JS.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				OATI
+			</h3>
+			
+			<div class="work_position">
+				Software Developer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2013-06-01
+				</span>
+				<span class="endDate">
+					- 2015-11-20
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.oati.com/">https://www.oati.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Employed as a professional developer creating software for the one of the country&#x27;s largest energy industry software company. Developed solutions to schedule transmissions of electrical energy and made strides in advancing the company in automated testing, and application-to-application communication infratructures.</p>
+			</div>
+			<ul class="highlights">
+				<li>Lead developer of the Realtime Net-Scheduled Interchange application for monitoring real-time and near future transmissions across power grids.</li>
+				<li>Lead development on integration of inter-company data transfer using SOAP XML via TSL.</li>
+				<li>Improved testing infrastructure by creating Unit Tests in NUnit and training new QA teams for automation of Unit Tests.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Karvakko Engineering
+			</h3>
+			
+			<div class="work_position">
+				Internship - Software Developer &amp; Technical Designer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2012-05-01
+				</span>
+				<span class="endDate">
+					- 2013-03-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://archenemyinteractive.com/">https://archenemyinteractive.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Worked as a software developer. Created a scheduling program, and a GIS application that interfaced with Google Earth. In addition, also designed 3D models for engineering projects, or future development plans. Used 3Ds Max and Gimp to develop a photo-realistic demonstration of the Bemidji Airport existing and development sites, along with a virtual tour of the Bemidji Airport for potential investors, landscape developers, and Civil Engineers.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer">
+		<h2>Volunteer</h2>
+		<div class="item">
+			<h3 class="company">
+				CHARISM STEM Program
+			</h3>
+			
+			<div class="work_position">
+				Teacher
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2017-02-01
+				</span>
+				<span class="endDate">
+					- 2018-05-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.charism.org/">https://www.charism.org/</a>
+			</div>
+			<div class="summary">
+				<p>Helped with Unity, VR, and Game Maker education program for middle school students grades 6-8. Taught kids to develop games using C# and Game Maker scripting.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="company">
+				West Fargo Public Schools STEM Program
+			</h3>
+			
+			<div class="work_position">
+				Teacher
+			</div>
+			<div class="summary">
+				<p>Helped bring game development education to a larger audience of students with 2D and VR video games in Unity.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="company">
+				uCodeGirl
+			</h3>
+			
+			<div class="work_position">
+				Teacher
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2018-06-18
+				</span>
+				<span class="endDate">
+					- 2018-06-22
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.ucodegirl.org/">https://www.ucodegirl.org/</a>
+			</div>
+			<div class="summary">
+				<p>Ran a boot camp for VR devleopment for young adults. Used Coogle Cardboard and Android phones to create a VR balloon popping game.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="company">
+				FIRST Robotics MidWest Regional Competition
+			</h3>
+			
+			<div class="work_position">
+				Webcast Operator
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2019-03-13
+				</span>
+				<span class="endDate">
+					- 2019-03-16
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://info.firstinspires.org/destination-deep-space">https://info.firstinspires.org/destination-deep-space</a>
+			</div>
+			<div class="summary">
+				<p>Ran the Twitch stream for the FIRST robotics competition.</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			
+			<div class="institution">
+				North Dakota State University
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					2016-01-11
+				</span>
+				<span class="endDate">
+					- 2019-08-30
+				</span>
+			</div>
+
+
+
+		</div>
+		<div class="item">
+			
+			<div class="institution">
+				Bemidji State University
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					2010-08-22
+				</span>
+				<span class="endDate">
+					- 2013-05-10
+				</span>
+			</div>
+
+
+
+		</div>
+		<div class="item">
+			
+			<div class="institution">
+				Nort Virginia Community College
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					2009-08-03
+				</span>
+				<span class="endDate">
+					- 2010-05-10
+				</span>
+			</div>
+
+
+
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Web Development
+			</div>
+			<ul class="keywords">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+				<li>JQuery/JSON</li>
+				<li>NodeJS</li>
+				<li>ReactJS</li>
+				<li>VueJS</li>
+				<li>PHP</li>
+				<li>SQL Server</li>
+				<li>MySQL</li>
+				<li>MongoDB</li>
+				<li>PostgreSQL</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Game Development
+			</div>
+			<ul class="keywords">
+				<li>Unity 3D</li>
+				<li>Space Simulation Physics Systems</li>
+				<li>Character Animation/Interaction Systems</li>
+				<li>Virtual Reality Locomotion Systems</li>
+				<li>Multiplayer and Cross Platform Games</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Graphics Programming
+			</div>
+			<ul class="keywords">
+				<li>OpenGL</li>
+				<li>DirectX</li>
+				<li>HSLS/GLSL</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				General Programming
+			</div>
+			<ul class="keywords">
+				<li>C#, WPF, .Net, WCF</li>
+				<li>Java, Android Development</li>
+				<li>C/C++</li>
+				<li>Python</li>
+				<li>NUnit/JUnit Testing</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="level">
+				<em>Native speaker</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				Thai
+			</div>
+			<div class="level">
+				<em>Native speaker</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Computer Graphics
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Game Development
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Creative Writing
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Concept Art/3D Modeling/Texturing/Animation
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Space Exploration
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Astronomy
+			</div>
+		</div>
+	</section>
+	
+	
+	</div>
+	</body>
+</html>
